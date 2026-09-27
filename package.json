@@ -1,0 +1,27 @@
+{
+  "name": "solid-template",
+  "version": "0.0.0",
+  "description": "🪃🪃🪃🪃",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "bun run typecheck && vite build",
+    "serve": "vite preview",
+    "lint": "biome lint --write .",
+    "format": "biome format --write .",
+    "check": "biome check --write .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.16.1",
+    "solid-js": "^1.9.13"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.16",
+    "typescript": "^5.9.3",
+    "unocss": "^66.10.5",
+    "vite": "^8.0.16",
+    "vite-plugin-solid": "^2.11.12"
+  }
+}
