@@ -139,4 +139,14 @@
     "linter": { "enabled": true },
     "assist": { "enabled": true },
   },
+  "overrides": [
+    {
+      "includes": ["./package.json", "./tsconfig.json"],
+      "json": {
+        "formatter": {
+          "trailingCommas": "none",
+        },
+      },
+    },
+  ],
 }
